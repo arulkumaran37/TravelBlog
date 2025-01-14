@@ -1,0 +1,23 @@
+body {
+  position: relative;
+  margin: 0;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6); 
+  z-index: -1;
+}
+
+body {
+  background-image: url(assets/Travell.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
